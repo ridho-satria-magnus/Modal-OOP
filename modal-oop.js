@@ -26,6 +26,8 @@ function alerting() {
     title: "Delete Wishlist",
     msg: "Are you sure want to delete?",
     actionDismiss: "alert('Dismiss Action')",
-    actionAccept: "alert('Accept Action ')"
+    actionAccept: "alert('Accept Action ')",
+    textDismiss: "No",
+    textAccept: "Yes, Save Changes"
   })
 }
