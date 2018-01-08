@@ -1,22 +1,23 @@
 <div class="p1">
   <button type="button" onclick="alerting()" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">
-  Show Confirmation
+    Show Confirmation
   </button>
 </div>
+
 <div class="modal" id="exampleModal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
-  <div class="modal-content">
-    <div class="modal-header">
-    <h5 class="modal-title" id="modal-title"></h5>
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="modal-btn-accept">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="modal-btn-dismiss">Close</button>
+      </div>
     </div>
-    <div class="modal-body" id="modal-body"></div>
-    <div class="modal-footer">
-    <button type="button" class="btn btn-primary" id="modal-btn-accept">Save changes</button>
-    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="modal-btn-dismiss">Close</button>
-    </div>
-  </div>
   </div>
 </div>
